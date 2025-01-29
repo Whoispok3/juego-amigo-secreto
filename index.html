@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Secreto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>Amigo Secreto</h1>
+            <img src="assets/amigo-secreto.png" alt="Logo Amigo Secreto">
+        </header>
+        
+        <section class="input-section">
+            <h2>Ingrese los nombres</h2>
+            <div class="input-wrapper">
+                <input type="text" id="amigo" placeholder="Escriba un nombre">
+                <button onclick="agregarAmigo()">Añadir</button>
+            </div>
+        </section>
+
+        <section class="list-section">
+            <ul id="listaAmigos"></ul>
+        </section>
+
+        <section class="result-section">
+            <div id="resultado"></div>
+        </section>
+
+        <footer>
+            <button onclick="sortearAmigo()">Sortear</button>
+            <button onclick="formarParejas()">Formar Parejas</button>
+            <button onclick="reiniciar()">Reiniciar</button>
+            <p>Programado por Sebastián Santana</p>
+        </footer>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
+

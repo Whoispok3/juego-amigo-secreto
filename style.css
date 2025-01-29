@@ -1,0 +1,170 @@
+:root {
+    --color-primary: #4B69FD;
+    --color-secondary: #FFF9EB;
+    --color-button: #FE652B;
+    --color-text: #333;
+    --color-white: #FFFFFF;
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.container {
+    width: 100%;
+    max-width: 600px; /* Se agranda en PC */
+    background-color: var(--color-secondary);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* HEADER */
+header h1 {
+    font-size: 32px;
+    color: var(--color-primary);
+}
+
+header img {
+    width: 120px;
+    margin-top: 10px;
+}
+
+/* SECCIÓN DE ENTRADA */
+.input-section h2 {
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.input-wrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.input-wrapper input {
+    flex: 1;
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+}
+
+.input-wrapper button {
+    background-color: var(--color-button);
+    color: var(--color-white);
+    padding: 12px 15px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.input-wrapper button:hover {
+    background-color: #e55720;
+}
+
+/* LISTA DE AMIGOS */
+.list-section ul {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.list-section li {
+    background: var(--color-white);
+    margin: 8px 0;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-section button {
+    background: red;
+    color: var(--color-white);
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* RESULTADOS */
+.result-section #resultado {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--color-primary);
+    margin-top: 20px;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 25px;
+}
+
+footer button {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 8px;
+}
+
+footer button:hover {
+    background-color: #3653cf;
+}
+
+footer p {
+    font-size: 14px;
+    color: var(--color-text);
+    margin-top: 10px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        max-width: 450px; /* Se ajusta en tablets */
+    }
+
+    .input-wrapper {
+        flex-direction: column;
+    }
+
+    .input-wrapper input,
+    .input-wrapper button {
+        width: 100%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer button {
+        width: 100%;
+    }
+}
+
