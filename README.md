@@ -1,7 +1,5 @@
 # juego-amigo-secreto
 
-Aquí tienes una descripción adaptada para tu proyecto, siguiendo el estilo que mencionaste pero sin los agradecimientos finales:
-
 Amigo Secreto
 Objetivos
 Crear una aplicación web interactiva que permita a los usuarios:
