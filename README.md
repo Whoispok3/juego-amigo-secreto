@@ -1,29 +1,51 @@
 # juego-amigo-secreto
-Proyecto interactivo de Amigo Secreto, desarrollado con HTML, CSS y JavaScript. Permite agregar nombres, sortear amigos secretos, formar parejas de intercambio y reiniciar el juego. Incluye un diseño responsivo y es fácil de usar en cualquier dispositivo.
+
+Aquí tienes una descripción adaptada para tu proyecto, siguiendo el estilo que mencionaste pero sin los agradecimientos finales:
+
 Amigo Secreto
-¡Bienvenido al proyecto de Amigo Secreto! Este es un programa interactivo diseñado para organizar fácilmente un juego de amigo secreto. Permite agregar nombres, realizar sorteos, formar parejas y reiniciar el juego. El proyecto tiene un diseño intuitivo y es completamente responsivo para cualquier dispositivo.
+Objetivos
+Crear una aplicación web interactiva que permita a los usuarios:
+
+Agregar una lista de nombres para los participantes.
+Sortear aleatoriamente un amigo secreto.
+Formar parejas de intercambio de regalos.
+Eliminar nombres individualmente o reiniciar el juego por completo.
+Resumen del Proyecto
+El Amigo Secreto es una herramienta interactiva creada con HTML, CSS y JavaScript puro, diseñada para realizar sorteos de amigos secretos. Ofrece validaciones básicas, un diseño responsivo y una experiencia de usuario intuitiva. Es ideal para organizar juegos de intercambio de regalos de manera rápida y sencilla.
 
 Características Principales
-Agregar Nombres: Permite ingresar nombres de los participantes y visualizarlos en una lista.
-Eliminar Nombres: Cada nombre tiene un botón "X" flotante para eliminarlo.
-Sortear Amigo Secreto: Selecciona aleatoriamente un participante como amigo secreto.
-Formar Parejas: Agrupa a los participantes en parejas aleatorias. Si el número es impar, muestra quién queda sin pareja.
-Reiniciar el Juego: Limpia todos los datos para comenzar de nuevo.
-Crédito al Autor: Un discreto tag en el footer indica quién creó el proyecto.
-Responsivo: Diseñado para funcionar perfectamente en cualquier dispositivo o navegador.
-Tecnologías Usadas
-HTML5: Estructura del proyecto.
-CSS3: Estilos visuales y diseño responsivo.
-JavaScript (ES6): Lógica interactiva para gestionar nombres, sorteos y reinicios.
-Capturas de Pantalla
-Pantalla Inicial
-El diseño limpio y atractivo invita a los usuarios a empezar fácilmente.
+Gestión de participantes: Agregar y eliminar nombres dinámicamente.
+Sorteo aleatorio: Seleccionar un amigo secreto de forma automática.
+Formación de parejas: Crear parejas aleatorias para intercambio.
+Reinicio del juego: Restablecer todos los datos para iniciar de nuevo.
+Interfaz responsiva: Optimizada para cualquier dispositivo y navegador.
+Pre-requisitos
+Navegador compatible: Chrome, Firefox, Safari, Edge, etc.
+JavaScript habilitado en el navegador.
+Instalación
+No requiere instalación adicional. Solo necesitas clonar el repositorio y abrir el archivo index.html en tu navegador.
 
-Agregar Participantes
-Los nombres se agregan en una lista interactiva con opciones para eliminarlos.
+Despliegue
+Este proyecto puede ejecutarse localmente utilizando:
 
-Resultado del Sorteo
-Muestra el amigo secreto seleccionado de forma destacada.
+Visual Studio Code o cualquier editor de texto.
+Opcionalmente, un servidor local como Live Server.
+Construido con
+HTML5: Para la estructura del contenido.
+CSS3: Para los estilos y diseño responsivo.
+JavaScript (Vanilla): Para la lógica interactiva.
+Contribuyendo
+Si deseas contribuir:
 
-Formar Parejas
-Crea parejas aleatorias y resalta si alguien queda sin pareja.
+Haz un fork del repositorio.
+Crea una nueva rama para tus cambios.
+bash
+Copy
+Edit
+git checkout -b nueva-funcionalidad
+Envía un pull request cuando tus cambios estén listos.
+Licencia
+Este proyecto está licenciado bajo la MIT License. Siéntete libre de usarlo y modificarlo.
+
+Sobre el Proyecto:
+Herramienta simple e intuitiva para organizar juegos de Amigo Secreto. Ideal para cualquier grupo de amigos o familia que desee realizar un sorteo justo y dinámico.
